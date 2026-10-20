@@ -115,6 +115,11 @@
   .cell.big{grid-row:span 2}
   .cell.big img,.cell.search img{border-bottom:1px solid var(--line)}
   .cell.tips{background:var(--sea-soft);border-color:transparent}
+  .rare{margin-top:22px;border:1px solid var(--line);border-radius:16px;background:var(--surface);padding:26px 28px;
+    display:grid;grid-template-columns:5fr 7fr;gap:28px;align-items:center}
+  .rare p{margin-top:8px;color:var(--text-2)}
+  .rare .pills{margin-top:0}
+  @media (max-width:720px){.rare{grid-template-columns:1fr;gap:18px;padding:22px}}
   .tips ul{list-style:none;margin-top:12px;display:grid;gap:10px}
   .tips li{padding-left:18px;position:relative;color:var(--text-2)}
   .tips li::before{content:"";position:absolute;left:0;top:.72em;width:8px;height:2px;background:var(--sea-strong)}
@@ -328,6 +333,20 @@
             <li>通訊、通信、電信會互相找到；全部符合的沒有時，會列出部分符合的結果。</li>
           </ul>
         </div>
+      </div>
+    </div>
+    <div class="rare">
+      <div>
+        <h3>冷門考科也找得到</h3>
+        <p>研岸收錄上千個考科，不只熱門的微積分、計算機概論。補習班不開課、書店找不到考古題的冷門科目，搜尋框打科目名稱就有，每題一樣附詳解。</p>
+      </div>
+      <div class="pills">
+        <a class="pill" href="https://grad.examshore.com/exams?q=牙周病學">牙周病學</a>
+        <a class="pill" href="https://grad.examshore.com/exams?q=獸醫流行病學">獸醫流行病學</a>
+        <a class="pill" href="https://grad.examshore.com/exams?q=水產養殖學">水產養殖學</a>
+        <a class="pill" href="https://grad.examshore.com/exams?q=海洋物理學">海洋物理學</a>
+        <a class="pill" href="https://grad.examshore.com/exams?q=西洋基礎樂理">採譜分析與西洋基礎樂理</a>
+        <a class="pill" href="https://grad.examshore.com/exams?q=地形學">地形學與地景保育</a>
       </div>
     </div>
   </div>
